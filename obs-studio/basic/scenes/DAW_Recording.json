@@ -9,7 +9,7 @@
     "name": "DAW Recording",
     "sources": [
         {
-            "prev_ver": 536870913,
+            "prev_ver": 536870914,
             "name": "Main Scene",
             "uuid": "bd5ca07f-6870-483f-b38c-a92d4eb60e64",
             "id": "scene",
@@ -269,7 +269,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870913,
+            "prev_ver": 536870914,
             "name": "3 - DAW",
             "uuid": "4f901c6a-94fb-43a6-a298-ba4bbb081d9f",
             "id": "asio_input_capture",
@@ -304,7 +304,7 @@
             }
         },
         {
-            "prev_ver": 536870913,
+            "prev_ver": 536870914,
             "name": "2 - Zoom",
             "uuid": "7d3b6343-6e9b-452b-9021-81d6296d48a6",
             "id": "wasapi_process_output_capture",
@@ -338,7 +338,7 @@
             }
         },
         {
-            "prev_ver": 536870913,
+            "prev_ver": 536870914,
             "name": "1 - Mic",
             "uuid": "6fa75ccc-ae8f-4f48-8194-f883ee490bbc",
             "id": "wasapi_input_capture",
@@ -371,7 +371,7 @@
             },
             "filters": [
                 {
-                    "prev_ver": 536870913,
+                    "prev_ver": 536870914,
                     "name": "Limiter",
                     "uuid": "92f5721b-48c1-4880-8a17-8b8f0b24c0fe",
                     "id": "limiter_filter",
@@ -399,7 +399,7 @@
             ]
         },
         {
-            "prev_ver": 536870913,
+            "prev_ver": 536870914,
             "name": "Display Capture",
             "uuid": "b9b57391-5937-44e9-8d8d-ac6ef5c22b50",
             "id": "monitor_capture",
