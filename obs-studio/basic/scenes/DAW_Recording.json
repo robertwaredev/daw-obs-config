@@ -15,12 +15,12 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 4,
+                "id_counter": 23,
                 "custom_size": false,
                 "items": [
                     {
-                        "name": "3 - DAW",
-                        "source_uuid": "4f901c6a-94fb-43a6-a298-ba4bbb081d9f",
+                        "name": "3 - DAW (ReaStream)",
+                        "source_uuid": "742e7043-8f08-42f9-93ef-cf7b53bb76f0",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -36,7 +36,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 1,
+                        "id": 21,
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
@@ -253,8 +253,8 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.21": [],
+                "libobs.hide_scene_item.21": [],
                 "libobs.show_scene_item.2": [],
                 "libobs.hide_scene_item.2": [],
                 "libobs.show_scene_item.3": [],
@@ -267,41 +267,6 @@
             "monitoring_type": 0,
             "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
-        },
-        {
-            "prev_ver": 536870914,
-            "name": "3 - DAW",
-            "uuid": "4f901c6a-94fb-43a6-a298-ba4bbb081d9f",
-            "id": "asio_input_capture",
-            "versioned_id": "asio_input_capture",
-            "settings": {
-                "device_id": "JackRouter",
-                "route 0": 0,
-                "route 1": 1
-            },
-            "mixers": 201,
-            "sync": 0,
-            "flags": 0,
-            "volume": 0.5011872053146362,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {
-                "volume_locked": true
-            }
         },
         {
             "prev_ver": 536870914,
@@ -344,7 +309,7 @@
             "id": "wasapi_input_capture",
             "versioned_id": "wasapi_input_capture",
             "settings": {
-                "device_id": "{0.0.1.00000000}.{e8b0b012-f2e3-4367-9be9-6b575f486882}"
+                "device_id": "{0.0.1.00000000}.{f71e56bc-1103-47cf-bc08-21b381bb5c04}"
             },
             "mixers": 195,
             "sync": 0,
@@ -423,6 +388,97 @@
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
             "private_settings": {}
+        },
+        {
+            "prev_ver": 536870914,
+            "name": "3 - DAW (ReaStream)",
+            "uuid": "742e7043-8f08-42f9-93ef-cf7b53bb76f0",
+            "id": "wasapi_input_capture",
+            "versioned_id": "wasapi_input_capture",
+            "settings": {
+                "device_id": "default"
+            },
+            "mixers": 201,
+            "sync": 0,
+            "flags": 0,
+            "volume": 0.5011872053146362,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {
+                "volume_locked": true
+            },
+            "filters": [
+                {
+                    "prev_ver": 536870914,
+                    "name": "kHs Gain",
+                    "uuid": "8ace191b-3ce5-4123-ba3b-8b1417fa1fa2",
+                    "id": "vst_filter",
+                    "versioned_id": "vst_filter",
+                    "settings": {
+                        "plugin_path": "C:/Program Files/VSTPlugins/Kilohearts/kHs Gain.dll",
+                        "chunk_data": "UEsDBBQACAgIABqRalsAAAAAAAAAAAAAAAAKAAAAc3RhdGUuanNvbu3bW2oCMRiG4euZVZTQy1J0Wit0D11BKSU60UozyZCDUMS9N8kYD+AS3hthvv+QJ97n0DZiUEGK94dD2zRCxvBjXfoSzq6UE21zfEote+X8zpratbFukCF3zcVTDkYdtztTgtmimzLf/+age61LRqe8CnWHkYPK9VodbK90LeaPXByVWysTpoVbOR0xe569zN+6brlcTIVebWTUwZ+mG6F3acqrb23XxbCR2qvS2whl5EqrPsfBxZo+hr+xnHjeleLjdKy2qzR/Xm7i8GH7qGVI/4gvoNOS4Sb+zFlTZlItSLedLl+25sjbmG53E8nBRhOudqZsHd1e3UZ373B9i4tElNLpADBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABA+YuJv9+lbZLU31f19YHd5dKfvDXpqlj+w9QSwcIgxE4XVoBAACoOAAAUEsBAgAAFAAICAgAGpFqW4MROF1aAQAAqDgAAAoAAAAAAAAAAAAAAAAAAAAAAHN0YXRlLmpzb25QSwUGAAAAAAEAAQA4AAAAkgEAAAAA",
+                        "chunk_hash": "4e695b01fd960b6844835e4f540bfe4d"
+                    },
+                    "mixers": 255,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                },
+                {
+                    "prev_ver": 536870914,
+                    "name": "reastream",
+                    "uuid": "198a7d48-7763-4357-b8cb-d829b63dd2f3",
+                    "id": "vst_filter",
+                    "versioned_id": "vst_filter",
+                    "settings": {
+                        "plugin_path": "C:/Program Files/VSTPlugins/ReaPlugs/reastream-standalone.dll",
+                        "chunk_data": "AAAAAAIAAAABAAAAZGVmYXVsdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                        "chunk_hash": "7d64c509d5eba82dc3f515fdd6346b90"
+                    },
+                    "mixers": 255,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
         }
     ],
     "groups": [],
@@ -488,6 +544,10 @@
             "lang_id": 1033,
             "provider": "mssapi"
         }
+    },
+    "resolution": {
+        "x": 1920,
+        "y": 1080
     },
     "version": 2
 }
